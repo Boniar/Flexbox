@@ -9,20 +9,16 @@
     justify-content: center;
     color: #fff;
     background-color: #5995DA;
-    /* Blue */
     padding: 20px 0;
 }
 
 .menu {
-
   width: 900px;
   display: flex;
   justify-content: space-between;
 }
 
 .links {
-
-    /* For debugging */
     display: flex;
     justify-content: flex-end;
 }
@@ -51,13 +47,14 @@
     justify-content: center;
 }
 
+
 .photo-grid {
-    width: 900px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
 
 .photo-grid-item {
@@ -72,4 +69,29 @@
 
 .last-item {
     order: -1;
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
 }
